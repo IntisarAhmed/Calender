@@ -1,0 +1,97 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/re.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+body, .coloroverly{
+    background-color: rgb(62, 63, 52);
+
+}
+.calender{
+    width: 550px;
+    height: 500px;
+    background-color: rgba(245, 56, 56, 0.514);
+    border-radius: 25%;
+    margin: auto;
+   margin-top: 100px;
+    
+}
+.calender h1{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-top: 15px;
+    font-size: 60px;
+    font-style: italic;
+    font-family: 'Lucida Sans';
+    color: yellow;
+    text-align: center;
+}
+table{
+    
+    width: 200px;
+    height: 350px;
+    margin-left: 60px;
+    
+    
+   
+    
+    
+}
+.calender table, th{
+    border-collapse: collapse;
+    font-size: 25px;
+    padding: 0px 10px;
+    color: rgb(13, 238, 13);
+}
+.calender table td{
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+
+
+/* Hover */
+
+
+.calender h1:hover{
+    color: rgb(175, 255, 244);
+    transition: 1s;
+    font-size: 80px;
+    font-family: 'Times New Roman';
+}
+.calender th:hover{
+    color: rgb(246, 248, 248);
+    font-size: 40px;
+    font-style: italic;
+}
+
+.calender td:hover{
+    color: rgb(243, 247, 10);
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+.calender:hover{
+    width: 700px;
+    height: 550px;
+    margin-top: 50px ;
+
+}
+.calender:hover table{
+    width: 500px;
+    height: 400px;
+    margin-left: 100px;
+
+}
+
+
+
